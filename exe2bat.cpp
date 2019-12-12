@@ -1,4 +1,4 @@
-﻿#include <iostream>
+#include <iostream>
 #include <fstream>
 #include <limits>
 
@@ -35,8 +35,10 @@ int main (int argc, char* argv[]) {
 	
 	string outfilename;
 	string namever = "EXE2BAT 0.5";
-	cout << namever << "\n\n";
-	system("chcp 65001>nul");
+	cout << namever << "\n";
+	#ifdef _WIN32
+		system("chcp 65001>nul");
+	#endif
 	
 	if( argc == 2 ) {
 		if( string(argv[1]) == "?" ) {
