@@ -42,7 +42,7 @@ int main( int argc, char* argv[] ) {
 	
 	if( argc == 2 ) {
 		if( string( argv[1] ) == "?" ) {
-			cout // THE MIT LICENSE
+			cout << // THE MIT LICENSE
 				"Copyright (c) 2019 Piotr Ambrożewicz\n\n"
 				"Permission is hereby granted, free of charge, to any person obtaining\n"
 				"a copy of this software and associated documentation files (the \"Software\"),\n"
