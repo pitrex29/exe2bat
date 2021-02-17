@@ -139,6 +139,7 @@ int main( int argc, char* argv[] ) {
 	fout << "del t\r\n";
 	fout << "cls\r\n";
 	fout << "\"%temp%\\%~n0\" %*\r\n";
+	fout << "timeout 8\r\n";
 	fout << "del \"%temp%\\%~n0\"";
 	
 	return 0;
