@@ -70,7 +70,7 @@ int main( int argc, char* argv[] ) {
 	else if( argc != 3 ) //print usage
 	{
 		cerr
-		<< "Copyright (c) 2019 Piotr Ambrożewicz\n\n"
+		<< "(c) 2019 Piotr Ambrożewicz\n\n"
 		<< "Usage:\n"
 		<< argv[0] << " <input> <output>   - converts any file to self-extracting bat (w/ autorun)\n"
 		<< argv[0] << " <input>            - auto filename. This allows for drag&drop capabilities\n"
